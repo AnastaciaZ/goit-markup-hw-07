@@ -1,0 +1,9 @@
+.page-footer {
+  background-color: $footer-bg-color;
+}
+.page-footer > .container {
+  display: flex;  
+  height: 253px;
+  align-items: baseline;
+  padding-top: 45px;
+}

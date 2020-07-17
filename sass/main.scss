@@ -1,0 +1,28 @@
+@import"./utils/variables";
+@import"./components/container";
+@import"./components/header/header-logo";
+@import"./components/header/header-navigate";
+@import"./components/header/header-contacts";
+@import"./components/footer/page-footer";
+@import"./components/footer/footer-logo";
+@import"./components/footer/footer-contacts";
+@import"./components/footer/footer-icon";
+@import"./components/footer/footer-form";
+@import"./components/footer/footer-button";
+
+body {
+  background-color: $bg-color;
+  color: $primary-text-color;
+  font-family: $font-family;
+}
+
+ul {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+}
+ img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
