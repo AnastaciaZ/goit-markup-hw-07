@@ -29,6 +29,16 @@
   height: 44px;
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
+
+    &:hover,
+    &:focus {
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      background-color: $accent-color;
+      outline: none;
+      transition: $transition-timing-function;
+    }
 }
 .footer-link-icon{
   fill: $bg-color;

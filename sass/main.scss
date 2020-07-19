@@ -1,14 +1,26 @@
 @import"./utils/variables";
 @import"./components/container";
+@import"./components/section";
 @import"./components/header/header-logo";
 @import"./components/header/header-navigate";
 @import"./components/header/header-contacts";
+@import"./components/web-studio-main/hero";
+@import"./components/web-studio-main/advantages";
+@import"./components/web-studio-main/profily";
+@import"./components/web-studio-main/command";
+@import"./components/web-studio-main/icon";
+@import"./components/web-studio-main/clients";
+@import"./components/button";
 @import"./components/footer/page-footer";
 @import"./components/footer/footer-logo";
 @import"./components/footer/footer-contacts";
 @import"./components/footer/footer-icon";
 @import"./components/footer/footer-form";
 @import"./components/footer/footer-button";
+@import"./components/modal";
+@import"./components/form";
+@import"./components/portfolio-main/portfolio-button";
+@import"./components/portfolio-main/portfolio";
 
 body {
   background-color: $bg-color;
@@ -25,4 +37,13 @@ ul {
   display: block;
   max-width: 100%;
   height: auto;
+}
+form {
+  width: 528px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 40px;
+}
+textarea {
+  resize: none;
 }
